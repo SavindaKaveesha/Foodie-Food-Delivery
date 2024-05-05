@@ -24,10 +24,19 @@ body {
 }
 
 nav {
+<<<<<<< Updated upstream
+=======
+  position: fixed;
+>>>>>>> Stashed changes
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+  background-color: #f6f6f6;
+>>>>>>> Stashed changes
 }
 .navbar-menu-container {
   display: none;
