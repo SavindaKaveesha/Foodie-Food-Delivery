@@ -43,7 +43,8 @@ nav {
   
 }
 .navbar-links-container{
-  margin-left: 35rem;
+  position: relative;
+  margin-left: 30rem;
 }
 .navbar-links-container a {
   margin-right: 3rem;
