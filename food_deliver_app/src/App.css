@@ -24,10 +24,13 @@ body {
 }
 
 nav {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+  width: 100%;
+  /*background-color: #f6f6f6;*/
 }
 .navbar-menu-container {
   display: none;
@@ -61,8 +64,8 @@ nav {
   cursor: pointer;
 }
 .home-banner-container {
-  position: relative;
   display: flex;
+  position: relative;
   padding-top: 3rem;
 }
 .home-bannerImage-container {
