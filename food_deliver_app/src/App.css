@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,20 +30,18 @@ nav {
   justify-content: space-between;
   min-height: 90px;
   width: 100%;
+  left: 0;
+  padding-left: 40px;
   background-color: #f6f6f6;
   z-index: 1;
 }
 .navbar-menu-container {
-<<<<<<< Updated upstream
-  display: none;
-=======
   display: flexbox;
   
 }
 .navbar-links-container{
   position: relative;
   margin-left: 20rem;
->>>>>>> Stashed changes
 }
 .navbar-links-container a {
   margin: 2.5rem;
@@ -51,8 +49,6 @@ nav {
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
-<<<<<<< Updated upstream
-=======
 }
 
 .navbar-btn{
@@ -65,8 +61,8 @@ nav {
 }
 .navbar-btn:hover {
   background-color: rgb(234, 234, 234);
->>>>>>> Stashed changes
 }
+
 .primary-button {
   padding: 0.9rem 1.75rem;
   background-color: white;
@@ -238,9 +234,7 @@ nav {
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
+
 .footer-section-two {
   flex: 1;
   display: flex;

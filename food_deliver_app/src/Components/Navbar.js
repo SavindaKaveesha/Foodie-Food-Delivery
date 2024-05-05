@@ -57,6 +57,7 @@ const Navbar = () => {
 <<<<<<< Updated upstream
             <a href="">Home</a>
             <a href="">About</a>
+            <a href="">Work</a>
             <a href="">Testimonials</a>
             <a href="">Contact</a>
             <a href="">
