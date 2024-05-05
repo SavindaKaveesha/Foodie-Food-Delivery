@@ -34,14 +34,38 @@ nav {
   z-index: 1;
 }
 .navbar-menu-container {
+<<<<<<< Updated upstream
   display: none;
+=======
+  display: flexbox;
+  
+}
+.navbar-links-container{
+  position: relative;
+  margin-left: 20rem;
+>>>>>>> Stashed changes
 }
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin: 2.5rem;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
+<<<<<<< Updated upstream
+=======
+}
+
+.navbar-btn{
+  border: none;
+  background-color: #f6f6f6;
+  align-items: center;
+  border-radius: 3rem;
+  padding: 1rem 0;
+  transition: 0.2s;
+}
+.navbar-btn:hover {
+  background-color: rgb(234, 234, 234);
+>>>>>>> Stashed changes
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
