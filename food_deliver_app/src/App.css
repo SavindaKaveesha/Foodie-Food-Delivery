@@ -24,13 +24,13 @@ body {
 }
 
 nav {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
   width: 100%;
-  /*background-color: #f6f6f6;*/
+  background-color: #f6f6f6;
 }
 .navbar-menu-container {
   display: none;
