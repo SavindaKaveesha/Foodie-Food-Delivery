@@ -3,10 +3,7 @@ import Logo from '../Assets/Logo.svg'
 import {BsCart2} from 'react-icons/bs'
 import {HiOutlineBars, HiOutlineBars3} from 'react-icons/hi2'
 
-//import Box from '@mui/icons-material'
-
-import Box from '@mui/material/Box'
-
+import Box from '@mui/icons-material/Box'
 
 import Drawer from "@mui/material/Drawer"
 import List from "@mui/material/List"
