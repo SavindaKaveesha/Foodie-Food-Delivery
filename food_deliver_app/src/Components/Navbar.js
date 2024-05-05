@@ -54,14 +54,23 @@ const Navbar = () => {
             <img src={Logo} alt="" />
         </div>
         <div className='navbar-links-container'>
+<<<<<<< Updated upstream
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Work</a>
             <a href="">Testimonials</a>
             <a href="">Contact</a>
             <a href="">
+=======
+            <button className='navbar-btn'><a href="">Home</a></button>
+            <button className='navbar-btn'><a href="">About</a></button>
+            <button className='navbar-btn'><a href="">Work</a></button>
+            <button className='navbar-btn'><a href="">Testimonials</a></button>
+            <button className='navbar-btn'><a href="">Contact</a></button>
+            <button className='navbar-btn'><a href="">
+>>>>>>> Stashed changes
                 <BsCart2 className='navbar-cart-icon'/>
-            </a>
+            </a></button>
             <button className='primary-button'>
                 Bookings Now
             </button>

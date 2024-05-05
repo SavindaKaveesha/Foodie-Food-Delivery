@@ -41,16 +41,26 @@ nav {
 }
 .navbar-links-container{
   position: relative;
-  margin-left: 30rem;
+  margin-left: 20rem;
 }
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin: 2.5rem;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
-  
-  
+}
+
+.navbar-btn{
+  border: none;
+  background-color: #f6f6f6;
+  align-items: center;
+  border-radius: 3rem;
+  padding: 1rem 0;
+  transition: 0.2s;
+}
+.navbar-btn:hover {
+  background-color: rgb(234, 234, 234);
 }
 
 .primary-button {
@@ -224,9 +234,7 @@ nav {
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
+
 .footer-section-two {
   flex: 1;
   display: flex;
