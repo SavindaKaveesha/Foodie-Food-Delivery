@@ -25,9 +25,16 @@ body {
 
 nav {
   display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+  background-color: #f6f6f6;
+  z-index: 1;
+>>>>>>> Stashed changes
 }
 .navbar-menu-container {
   display: none;
@@ -62,8 +69,12 @@ nav {
 }
 .home-banner-container {
   position: relative;
+<<<<<<< Updated upstream
   display: flex;
   padding-top: 3rem;
+=======
+  padding-top: 7rem;
+>>>>>>> Stashed changes
 }
 .home-bannerImage-container {
   position: absolute;
