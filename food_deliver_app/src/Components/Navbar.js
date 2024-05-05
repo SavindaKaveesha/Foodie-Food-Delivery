@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 import Logo from '../Assets/Logo.svg'
 import {BsCart2} from 'react-icons/bs'
 import {HiOutlineBars, HiOutlineBars3} from 'react-icons/hi2'
+
+import Box from '@mui/icons-material'
+
 import Box from '@mui/icons-material/Box'
+
 import Drawer from "@mui/material/Drawer"
 import List from "@mui/material/List"
 import Divider from '@mui/material/Divider'
@@ -71,7 +75,11 @@ const Navbar = () => {
             <Box sx={{width:250}}
             role='presentaion'
             onClick={() => setOpenMenu(false)}
+
+            onKeyDown={() => setOpenMenu(false)}
+            
             onKeyDown={() => setOpenMenu(false)}>
+
                 <List>
                     {menuOptions.map((item) => (
                         <ListItem key={item.text} disablePadding>
