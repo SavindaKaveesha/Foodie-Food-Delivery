@@ -28,11 +28,20 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+  left: 0;
+  padding-left: 40px;
+  background-color: #f6f6f6;
+  z-index: 1;
+>>>>>>> Stashed changes
 }
 .navbar-menu-container {
-  display: none;
+  display: flexbox;
 }
 .navbar-links-container a {
+  
   margin-right: 3rem;
   text-decoration: none;
   color: black;
