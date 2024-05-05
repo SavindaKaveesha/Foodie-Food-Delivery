@@ -24,18 +24,21 @@ body {
 }
 
 nav {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
-<<<<<<< Updated upstream
-=======
   width: 100%;
   left: 0;
   padding-left: 40px;
   background-color: #f6f6f6;
   z-index: 1;
->>>>>>> Stashed changes
+
+  width: 100%;
+  background-color: #f6f6f6;
+  z-index: 1;
+
 }
 .navbar-menu-container {
   display: flexbox;
@@ -70,9 +73,9 @@ nav {
   cursor: pointer;
 }
 .home-banner-container {
-  position: relative;
   display: flex;
-  padding-top: 3rem;
+  position: relative;
+  padding-top: 7rem;
 }
 .home-bannerImage-container {
   position: absolute;
