@@ -71,8 +71,7 @@ const Navbar = () => {
             <Box sx={{width:250}}
             role='presentaion'
             onClick={() => setOpenMenu(false)}
-            onKeyDown={() => setOpenMenu(false)}
-            >
+            onKeyDown={() => setOpenMenu(false)}>
                 <List>
                     {menuOptions.map((item) => (
                         <ListItem key={item.text} disablePadding>
