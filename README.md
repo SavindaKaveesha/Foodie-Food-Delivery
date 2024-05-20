@@ -4,13 +4,12 @@
 
 Foodie is a web application designed for efficient food delivery service. It provides users with an intuitive interface to browse menus, place orders, and receive deliveries quickly. This project is a collaborative effort, leveraging the power of React for a dynamic and responsive user experience.
 
+- Linkedin post : https://www.linkedin.com/posts/savinda-kaveesha-8097a91aa_reactjs-github-webdevelopment-activity-7193228893258932225-jFa-?utm_source=share&utm_medium=member_desktop
+
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Features
 - Home page with an overview of the service
@@ -25,7 +24,6 @@ Foodie is a web application designed for efficient food delivery service. It pro
 - **Styling**: CSS
 - **Version Control**: GitHub
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/foodie-food-delivery.git
+## Contributors
+- Home, Contact, and Footer Components: SavindaKaveesha
+- Other Contributors: Kalpani99
